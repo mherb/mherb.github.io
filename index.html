@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Markus Herb</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css" integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" />
+        <style>
+            html, body
+            {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                height: 100vh;
+                width: 100vw;
+            }
+            #wrapper
+            {
+                height: 100vh;
+                padding: 0;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                color: #fff;
+                
+                background-color: #005481;
+                background-image: url("img/bg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: center;
+                background-position-y: top;
+            }
+            #main {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+            #header h1 {
+                font-weight: 300;
+                margin-block-start: 0;
+                font-size: 32pt;
+            }
+            #header {
+                font-size: 16pt;
+                padding-left: 20px;
+                padding-top: 20px;
+                flex-grow: 1;
+                align-self: flex-start;
+            }
+            #footer {
+                padding-bottom: 20px;
+                padding-right: 20px;
+                flex-shrink: 0;
+                align-self: flex-end;
+            }
+            #footer ul
+            {
+                list-style: none;
+                font-size: 36pt;
+                padding: 0;
+                margin: 0;
+            }
+            #footer li
+            {
+                display: inline;
+                padding: 0;
+                margin: 0;
+            }
+            #footer a
+            {
+                color: #fff;
+                text-decoration: none;
+            }
+            #footer a:focus, #footer a:hover
+            {
+                color: #ccc;
+            }
+            </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="bg"></div>
+            <div id="overlay"></div>
+            <div id="main">
+                <header id="header">
+                    <h1>Markus Herb</h1>
+                    <p>Computer Vision Software Engineer | Researcher</p>
+                    <!--<p>👨‍💻 | 🚴 | 📷</p>-->
+                </header>
+                <footer id="footer">
+                    <nav>
+                        <ul>
+                            <li><a title="LinkedIn" rel="external" href="https://www.linkedin.com/in/markus-herb" class="icon fab fa-linkedin"></a></li>
+                            <li><a title="GitHub" rel="external" href="https://github.com/mherb" class="icon fab fa-github"></a></li>
+                        </ul>
+                    </nav>
+                    <!--<span class="copyright">&copy; Markus Herb</span>-->
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
